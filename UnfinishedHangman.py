@@ -25,11 +25,12 @@ def hangman():
         #Write code in the following lines that adds the guess to the list guess_letters above.
         #guessed_letters.
 
-        if guess in word:
-            print("✅ Good guess!")
-        else:
-            print("❌ Nope, that letter's not in the word.")
-            tries -= 1
+        #Write code in the following lines to see if the guessed letter is in the word. Print a statement if the letter is in the word and a different statement if it isn't. Subtract the amount of lives if guessed wrong.
+        #if 
+        #   print()
+        #else:
+            #print()
+            #
 
         # Display current progress
         display = [letter if letter in guessed_letters else "_" for letter in word]
