@@ -17,23 +17,24 @@ pokemon_list = [
 def play_game():
     print("🎮 Welcome to the Pokémon Guessing Game!")
     selected = random.choice(pokemon_list)
-    name = selected["name"]
-    type_hint = selected["type"]
+    #Task 1 : Create 4 variables : name, type(pokemon's type), first_letter(First letter of pokemon's name), length(Represents the amount of letters in the pokemon's name). 
+    #HINT : Use the dictionary to get the name and type.
     
-    # Generate hints
-    first_letter = name[0]
-    length = len(name)
-
+    # Task 2 : Complete the following print statements with the correct variables
     print("\n🧩 Guess the Pokémon!")
-    print(f"Hint 1: It has {length} letters.")
-    print(f"Hint 2: It starts with '{first_letter}'.")
-    print(f"Hint 3: Its type is {type_hint}.")
+    print(f"Hint 1: It has {} letters.")
+    print(f"Hint 2: It starts with '{}'.")
+    print(f"Hint 3: Its type is {}.")
 
+    # Task 3 : Give the user 3 tries to guess the pokemon!
     attempts = 0
-    while True:
-        guess = input("\nYour guess: ").strip().capitalize()
+    #Complete the while loop
+    while :
+        #Complete the variable guess
+        guess = 
         attempts += 1
-        if guess == name:
+        #Complete the if statement
+        if :
             print(f"✅ Correct! It was {name}. You guessed it in {attempts} attempts.")
             break
         else:
