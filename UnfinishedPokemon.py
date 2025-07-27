@@ -16,7 +16,8 @@ pokemon_list = [
 
 def play_game():
     print("🎮 Welcome to the Pokémon Guessing Game!")
-    selected = random.choice(pokemon_list)
+    #Task .5 :  Get a random value from the dictionary!
+    selected = 
     #Task 1 : Create 4 variables : name, type(pokemon's type), first_letter(First letter of pokemon's name), length(Represents the amount of letters in the pokemon's name). 
     #HINT : Use the dictionary to get the name and type.
     
